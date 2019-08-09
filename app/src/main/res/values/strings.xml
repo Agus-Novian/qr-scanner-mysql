@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QR Code</string>
+    <string name="title_activity_ticket">Book Ticket</string>
+    <string name="lbl_duration">DURATION</string>
+    <string name="lbl_genre">GENRE</string>
+    <string name="lbl_rating">RATING</string>
+    <string name="lbl_price">PRICE</string>
+    <string name="btn_buy_now">BUY NOW</string>
+    <string name="btn_coming_soon">COMING SOON</string>
+    <string name="msg_no_ticket_found">No Sertifikat Tidak Terdaftar!</string>
+    <string name="lbl_scan_activity">Scan QR Code</string>
+
+
+    <string name="develop"> Nama    : Agus Novian \nJurusan : Teknik Informatika \nTempat, Tanggal Lahir : Brebes, 10 November 1992 \nAlamat : Desa Blandongan RT 05 RW 04 \nProgram Studi : Fakultas Ilmu Komputer</string>
+    <string name="tentang">SMK CIBEUNING CIBINGBIN KUNINGAN \N Smk yang berada diperbatasan Jawa Barat dan Jawa Tengah. Smk Cibeuning mempunya Tiga Jurusan :\n 1. Teknik dan Bisnis Sepeda motor \n 2. Akutansi dan Keuangan Lembaga \n 3. Teknik dan Jaringan Komputer </string>
+    <string name="profil">
+        ini adalah isi \n
+        ini adalah isi \n
+    </string>
+
+</resources>

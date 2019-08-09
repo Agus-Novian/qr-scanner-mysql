@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.agus.qrcode">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:label="Scanner"/>
+
+        <activity android:name=".ScannerActivity"
+            android:label="Scanner"/>
+
+        <activity android:name=".ResultActivity"
+            android:label="Hasil Scan Data"/>
+
+        <activity android:name=".pages.SmkActivity"
+            android:label="SMK Cibeuning"/>
+        <activity android:name=".pages.TentangActivity"
+            android:label="Tentang Saya"/>
+        <activity android:name=".pages.KeluarActivity"
+            android:label="Keluar"></activity>
+
+    </application>
+
+</manifest>
